@@ -9,6 +9,8 @@ global.client = new Client({
 
 client.config = require('./config');
 
+require('./src/registerCommands');
+
 client.login(client.config.dsc.token);
 
 client.on('ready', () => console.log('Ready !'));

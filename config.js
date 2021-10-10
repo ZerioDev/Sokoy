@@ -1,5 +1,6 @@
 module.exports = {
     dsc: {
-        token: ''
+        id: '', //will be used for slash commands
+        token: '' //login to discord
     }
 };

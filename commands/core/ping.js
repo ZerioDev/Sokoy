@@ -1,8 +1,8 @@
 module.exports = {
     name: 'ping',
-    description: 'A very cool command',
+    description: 'Get bot latency',
 
     run: (interaction) => {
-        interaction.reply({ content: 'Pong !' });
+        interaction.reply({ content: `Pong ${client.ws.ping}ms 🏓` });
     }
 };
